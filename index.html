@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drillo - Privacy Policy / 개인정보처리방침</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.75;
+    color: #1d1d1f;
+    background: #f8fafc;
+  }
+  .container {
+    max-width: 740px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 48px 36px 64px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #6366f1;
+  }
+  .app-name {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 28px;
+  }
+  .lang-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .lang-toggle button {
+    padding: 8px 22px;
+    border: 1px solid #d2d2d7;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #475569;
+  }
+  .lang-toggle button.active {
+    background: #6366f1;
+    color: #fff;
+    border-color: #6366f1;
+  }
+  .lang-toggle button:hover:not(.active) {
+    background: #f1f5f9;
+  }
+  .section { display: none; }
+  .section.active { display: block; }
+  .effective {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #eef2ff;
+    color: #1a1a2e;
+  }
+  p, li {
+    font-size: 15px;
+    color: #475569;
+    margin-bottom: 8px;
+  }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 5px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 18px;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #e2e8f0;
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f8fafc; font-weight: 600; color: #1a1a2e; }
+  td { color: #475569; }
+  a { color: #6366f1; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 13px;
+    color: #94a3b8;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 28px 18px 48px; margin: 12px 8px; border-radius: 12px; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Privacy Policy / 개인정보처리방침</h1>
+<p class="app-name">Drillo - MCQ Exam Trainer / 객관식 반복 풀이</p>
+
+<div class="lang-toggle">
+  <button id="btn-ko" class="active" onclick="switchLang('ko')">한국어</button>
+  <button id="btn-en" onclick="switchLang('en')">English</button>
+</div>
+
+<!-- ===== KOREAN ===== -->
+<div id="section-ko" class="section active">
+
+<p class="effective"><strong>시행일:</strong> 2026-03-20 &nbsp;|&nbsp; <strong>최종 수정일:</strong> 2026-03-20</p>
+
+<p>Drillo(이하 "앱" 또는 "서비스")는 이용자의 개인정보를 소중히 여기며, 「개인정보 보호법」 및 관련 법령에 따라 개인정보를 안전하게 관리합니다. 본 개인정보처리방침은 앱이 수집하는 정보, 사용 목적, 보호 방법에 대해 설명합니다.</p>
+
+<h2>1. 수집하는 개인정보</h2>
+<table>
+  <tr><th>항목</th><th>수집 정보</th><th>수집 방법</th></tr>
+  <tr><td>계정 정보</td><td>이메일 주소, 소셜 로그인 정보 (Google/Apple ID)</td><td>회원가입 시 직접 입력 / OAuth 인증</td></tr>
+  <tr><td>학습 데이터</td><td>문제 풀이 기록, 정오답 이력, 정답률, 학습 통계</td><td>서비스 이용 중 자동 생성</td></tr>
+  <tr><td>업로드 이미지</td><td>사용자가 촬영 또는 업로드한 문제 이미지/PDF</td><td>사용자 직접 업로드</td></tr>
+  <tr><td>기기 정보</td><td>기기 유형, OS 버전, 앱 버전</td><td>자동 수집</td></tr>
+  <tr><td>결제 정보</td><td>구독 상태 (결제 정보 자체는 앱스토어에서 처리)</td><td>앱스토어를 통한 간접 수집</td></tr>
+</table>
+
+<h2>2. 개인정보의 이용 목적</h2>
+<p>수집된 정보는 다음 목적으로만 사용됩니다:</p>
+<ul>
+  <li>회원 관리 및 본인 확인</li>
+  <li>학습 기능 제공 (문제 등록, 풀이, 오답 관리, 통계 분석)</li>
+  <li>OCR 텍스트 추출 및 문제 디지털화</li>
+  <li>AI 기반 문제 태그 분류 및 복습 추천</li>
+  <li>유료 구독 관리</li>
+  <li>앱 서비스 개선 및 오류 수정</li>
+  <li>고객 문의 응대</li>
+</ul>
+<p>Drillo는 사용자의 학습 데이터를 광고 목적으로 사용하거나 제3자에게 판매하지 않습니다.</p>
+
+<h2>3. 제3자 서비스</h2>
+<p>앱은 서비스 제공을 위해 다음 제3자 서비스를 이용합니다:</p>
+<table>
+  <tr><th>서비스</th><th>제공사</th><th>용도</th><th>개인정보처리방침</th></tr>
+  <tr><td>Supabase</td><td>Supabase Inc.</td><td>사용자 인증, 데이터베이스, 파일 저장</td><td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td></tr>
+  <tr><td>Google ML Kit</td><td>Google LLC</td><td>기기 내(on-device) OCR 텍스트 인식</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>Google Cloud Vision API</td><td>Google LLC</td><td>고품질 OCR 처리 (프리미엄, 사용자 동의 시)</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>RevenueCat</td><td>RevenueCat Inc.</td><td>인앱결제 및 구독 관리</td><td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></td></tr>
+</table>
+<p>Google ML Kit의 기본 OCR 처리는 사용자의 기기 내에서 수행되며, 이미지 데이터가 외부 서버로 전송되지 않습니다. Cloud Vision API 사용 시 사용자에게 별도 동의를 구합니다.</p>
+
+<h2>4. 데이터 보관 및 삭제</h2>
+<table>
+  <tr><th>항목</th><th>보유 기간</th></tr>
+  <tr><td>회원 정보</td><td>회원 탈퇴 시까지 (탈퇴 후 30일 이내 파기)</td></tr>
+  <tr><td>학습 기록</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>업로드 원본 이미지</td><td>OCR 처리 완료 후 30일 보관 후 자동 삭제</td></tr>
+  <tr><td>OCR 추출 텍스트</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>결제 기록</td><td>관련 법령에 따라 5년 보관</td></tr>
+</table>
+<ul>
+  <li>사용자는 앱 내 설정에서 언제든지 자신의 데이터를 삭제할 수 있습니다.</li>
+  <li>계정 삭제 요청 시 모든 개인정보는 요청일로부터 30일 이내에 완전히 삭제됩니다.</li>
+  <li>법령에 의해 보관이 요구되는 경우 해당 기간 동안 최소한의 정보만 보관합니다.</li>
+</ul>
+
+<h2>5. 데이터 보안</h2>
+<p>Drillo는 사용자 데이터를 보호하기 위해 다음 조치를 시행합니다:</p>
+<ul>
+  <li>모든 데이터 전송 시 TLS/SSL 암호화 적용</li>
+  <li>비밀번호 해시 처리 (Supabase Auth, bcrypt)</li>
+  <li>데이터베이스 Row Level Security (RLS) 적용 - 본인 데이터만 접근 가능</li>
+  <li>인증 토큰의 안전한 저장 및 관리</li>
+  <li>정기 보안 취약점 점검</li>
+</ul>
+
+<h2>6. 아동의 개인정보 보호</h2>
+<p>Drillo는 만 14세 미만 아동의 회원가입을 허용하지 않으며, 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다. 만 14세 미만 사용자의 개인정보 제공이 확인된 경우 해당 정보를 즉시 삭제합니다.</p>
+
+<h2>7. 이용자의 권리</h2>
+<p>사용자는 언제든지 다음 권리를 행사할 수 있습니다:</p>
+<ul>
+  <li>개인정보 열람, 수정, 삭제 요청</li>
+  <li>계정 삭제 및 모든 데이터 삭제 요청</li>
+  <li>개인정보 처리에 대한 동의 철회</li>
+  <li>개인정보 처리 정지 요구</li>
+  <li>자신의 데이터 이동(포터빌리티) 요청</li>
+</ul>
+<p>권리 행사는 앱 내 [설정 > 계정 관리] 또는 아래 이메일로 가능합니다.</p>
+
+<h2>8. GDPR (유럽 이용자)</h2>
+<p>유럽경제지역(EEA) 거주 이용자의 경우, EU 일반 개인정보 보호법(GDPR)에 따라 다음 권리가 보장됩니다:</p>
+<ul>
+  <li>데이터 접근권, 정정권, 삭제권("잊힐 권리"), 처리 제한권</li>
+  <li>데이터 이동권</li>
+  <li>처리에 대한 이의 제기권</li>
+  <li>자동화된 의사결정 및 프로파일링에 대한 이의 제기권</li>
+  <li>관할 감독 기관에 불만을 제기할 권리</li>
+</ul>
+<p>데이터 처리의 법적 근거는 서비스 제공을 위한 계약 이행(GDPR 제6조 1항 b호) 및 이용자의 동의(GDPR 제6조 1항 a호)입니다.</p>
+
+<h2>9. CCPA (캘리포니아 이용자)</h2>
+<p>캘리포니아 거주 이용자의 경우, 캘리포니아 소비자 개인정보 보호법(CCPA)에 따라 다음 권리가 보장됩니다:</p>
+<ul>
+  <li>수집된 개인정보의 범위를 알 권리</li>
+  <li>개인정보 삭제를 요청할 권리</li>
+  <li>개인정보 판매에 대한 거부권 (Drillo는 개인정보를 판매하지 않습니다)</li>
+  <li>권리 행사로 인한 차별을 받지 않을 권리</li>
+</ul>
+
+<h2>10. 개인정보처리방침 변경</h2>
+<p>본 방침이 변경되는 경우, 변경 내용을 앱 내 공지 또는 이메일을 통해 최소 7일 전에 안내합니다. 중대한 변경의 경우 30일 전에 안내합니다.</p>
+
+<h2>11. 개인정보 보호 책임자 및 문의</h2>
+<p>개인정보 관련 문의사항은 아래로 연락해 주세요:</p>
+<ul>
+  <li><strong>담당자:</strong> Drillo Team</li>
+  <li><strong>이메일:</strong> privacy@drillo.app</li>
+</ul>
+
+</div>
+
+<!-- ===== ENGLISH ===== -->
+<div id="section-en" class="section">
+
+<p class="effective"><strong>Effective Date:</strong> 2026-03-20 &nbsp;|&nbsp; <strong>Last Updated:</strong> 2026-03-20</p>
+
+<p>Drillo ("the App" or "the Service") values your privacy and is committed to protecting your personal information in compliance with applicable data protection laws. This Privacy Policy explains what data we collect, how we use it, and how we safeguard it.</p>
+
+<h2>1. Data We Collect</h2>
+<table>
+  <tr><th>Category</th><th>Data</th><th>Collection Method</th></tr>
+  <tr><td>Account Information</td><td>Email address, social login info (Google/Apple ID)</td><td>User input at registration / OAuth</td></tr>
+  <tr><td>Study Data</td><td>Question attempt history, correct/wrong records, accuracy rates, study statistics</td><td>Automatically generated during use</td></tr>
+  <tr><td>Uploaded Images</td><td>Photos or PDFs of exam papers captured or uploaded by the user</td><td>User upload</td></tr>
+  <tr><td>Device Information</td><td>Device type, OS version, app version</td><td>Automatic collection</td></tr>
+  <tr><td>Payment Information</td><td>Subscription status (payment details are handled by app stores)</td><td>Indirect via app store</td></tr>
+</table>
+
+<h2>2. How We Use Your Data</h2>
+<p>Collected data is used solely for the following purposes:</p>
+<ul>
+  <li>Account authentication and management</li>
+  <li>Providing study features (question registration, practice, wrong answer management, analytics)</li>
+  <li>OCR text extraction and question digitization</li>
+  <li>AI-powered question tagging and review recommendations</li>
+  <li>Subscription management</li>
+  <li>App improvement and bug fixes</li>
+  <li>Customer support</li>
+</ul>
+<p>Drillo does not use your study data for advertising or sell it to any third party.</p>
+
+<h2>3. Third-Party Services</h2>
+<p>The App uses the following third-party services to deliver its functionality:</p>
+<table>
+  <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Privacy Policy</th></tr>
+  <tr><td>Supabase</td><td>Supabase Inc.</td><td>User authentication, database, file storage</td><td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td></tr>
+  <tr><td>Google ML Kit</td><td>Google LLC</td><td>On-device OCR text recognition</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>Google Cloud Vision API</td><td>Google LLC</td><td>High-quality OCR (premium tier, with user consent)</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>RevenueCat</td><td>RevenueCat Inc.</td><td>In-app purchase and subscription management</td><td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></td></tr>
+</table>
+<p>Google ML Kit performs basic OCR processing entirely on the user's device. Image data is not transmitted to external servers. When Cloud Vision API is used for premium OCR, separate user consent is obtained beforehand.</p>
+
+<h2>4. Data Retention and Deletion</h2>
+<table>
+  <tr><th>Category</th><th>Retention Period</th></tr>
+  <tr><td>Account information</td><td>Until account deletion (deleted within 30 days of request)</td></tr>
+  <tr><td>Study records</td><td>Until account deletion</td></tr>
+  <tr><td>Uploaded original images</td><td>Automatically deleted 30 days after OCR processing</td></tr>
+  <tr><td>OCR-extracted text</td><td>Until account deletion</td></tr>
+  <tr><td>Payment records</td><td>5 years as required by applicable law</td></tr>
+</table>
+<ul>
+  <li>You may delete your data at any time through the app's Settings.</li>
+  <li>Upon account deletion request, all personal data is permanently deleted within 30 days.</li>
+  <li>Where required by law, minimal data may be retained for the legally mandated period.</li>
+</ul>
+
+<h2>5. Data Security</h2>
+<p>Drillo implements the following measures to protect your data:</p>
+<ul>
+  <li>TLS/SSL encryption for all data in transit</li>
+  <li>Password hashing via Supabase Auth (bcrypt)</li>
+  <li>Database Row Level Security (RLS) ensuring users can only access their own data</li>
+  <li>Secure storage of authentication tokens</li>
+  <li>Regular security vulnerability assessments</li>
+</ul>
+
+<h2>6. Children's Privacy</h2>
+<p>Drillo does not allow registration by children under 13 (or under 14 in South Korea) and does not knowingly collect personal information from such individuals. If we become aware that a child has provided personal information, we will promptly delete it.</p>
+
+<h2>7. Your Rights</h2>
+<p>You may exercise the following rights at any time:</p>
+<ul>
+  <li>Access, correct, or delete your personal information</li>
+  <li>Request account and complete data deletion</li>
+  <li>Withdraw consent for data processing</li>
+  <li>Request restriction of processing</li>
+  <li>Request data portability</li>
+</ul>
+<p>You may exercise these rights through [Settings > Account Management] in the app or by contacting us at the email below.</p>
+
+<h2>8. GDPR (European Users)</h2>
+<p>If you reside in the European Economic Area (EEA), you are entitled to the following rights under the General Data Protection Regulation (GDPR):</p>
+<ul>
+  <li>Right of access, rectification, erasure ("right to be forgotten"), and restriction of processing</li>
+  <li>Right to data portability</li>
+  <li>Right to object to processing</li>
+  <li>Right to object to automated decision-making and profiling</li>
+  <li>Right to lodge a complaint with a supervisory authority</li>
+</ul>
+<p>The legal bases for processing are: performance of a contract to provide the service (Art. 6(1)(b) GDPR) and your consent (Art. 6(1)(a) GDPR).</p>
+
+<h2>9. CCPA (California Users)</h2>
+<p>If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA):</p>
+<ul>
+  <li>Right to know what personal information is collected</li>
+  <li>Right to request deletion of personal information</li>
+  <li>Right to opt out of the sale of personal information (Drillo does not sell personal information)</li>
+  <li>Right to non-discrimination for exercising your rights</li>
+</ul>
+
+<h2>10. Changes to This Policy</h2>
+<p>If this policy is updated, we will notify you at least 7 days in advance via in-app notice or email. For material changes, we will provide 30 days' notice.</p>
+
+<h2>11. Data Protection Officer &amp; Contact</h2>
+<p>For privacy-related inquiries, please contact us:</p>
+<ul>
+  <li><strong>Contact Person:</strong> Drillo Team</li>
+  <li><strong>Email:</strong> privacy@drillo.app</li>
+</ul>
+
+</div>
+
+<div class="footer">
+  &copy; 2026 Drillo. All rights reserved.
+</div>
+
+</div>
+
+<script>
+function switchLang(lang) {
+  document.getElementById('section-ko').classList.toggle('active', lang === 'ko');
+  document.getElementById('section-en').classList.toggle('active', lang === 'en');
+  document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
+}
+</script>
+</body>
+</html>

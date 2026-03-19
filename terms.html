@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drillo - Terms of Service / 이용약관</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.75;
+    color: #1d1d1f;
+    background: #f8fafc;
+  }
+  .container {
+    max-width: 740px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 48px 36px 64px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #6366f1;
+  }
+  .app-name {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 28px;
+  }
+  .lang-toggle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .lang-toggle button {
+    padding: 8px 22px;
+    border: 1px solid #d2d2d7;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #475569;
+  }
+  .lang-toggle button.active {
+    background: #6366f1;
+    color: #fff;
+    border-color: #6366f1;
+  }
+  .lang-toggle button:hover:not(.active) {
+    background: #f1f5f9;
+  }
+  .section { display: none; }
+  .section.active { display: block; }
+  .effective {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #eef2ff;
+    color: #1a1a2e;
+  }
+  p, li {
+    font-size: 15px;
+    color: #475569;
+    margin-bottom: 8px;
+  }
+  ul, ol { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 5px; }
+  .callout {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+  }
+  .callout p { color: #991b1b; margin-bottom: 0; }
+  .callout-info {
+    background: #eef2ff;
+    border-left: 4px solid #6366f1;
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+  }
+  .callout-info p { color: #3730a3; margin-bottom: 0; }
+  a { color: #6366f1; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 13px;
+    color: #94a3b8;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 28px 18px 48px; margin: 12px 8px; border-radius: 12px; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Terms of Service / 이용약관</h1>
+<p class="app-name">Drillo - MCQ Exam Trainer / 객관식 반복 풀이</p>
+
+<div class="lang-toggle">
+  <button id="btn-ko" class="active" onclick="switchLang('ko')">한국어</button>
+  <button id="btn-en" onclick="switchLang('en')">English</button>
+</div>
+
+<!-- ===== KOREAN ===== -->
+<div id="section-ko" class="section active">
+
+<p class="effective"><strong>시행일:</strong> [시행일 입력] &nbsp;|&nbsp; <strong>최종 수정일:</strong> [수정일 입력]</p>
+
+<h2>제1조 (목적)</h2>
+<p>이 약관은 Drillo(이하 "서비스")가 제공하는 모바일 애플리케이션 서비스의 이용 조건 및 절차에 관한 사항을 규정함을 목적으로 합니다.</p>
+
+<h2>제2조 (서비스의 내용)</h2>
+<ol>
+  <li>본 서비스는 사용자가 직접 보유한 학습 자료(문제지, PDF, 이미지 등)를 디지털화하여 객관식 문제 형태로 반복 학습할 수 있도록 돕는 <strong>개인 학습 도구</strong>입니다.</li>
+  <li>서비스는 문제 콘텐츠를 직접 제작하거나 제공하지 않습니다.</li>
+  <li>모든 학습 콘텐츠는 사용자가 직접 입력하거나 업로드합니다.</li>
+  <li>서비스에는 콘텐츠 공유 기능이 포함되어 있지 않으며, 사용자 간 콘텐츠 교환을 지원하지 않습니다.</li>
+</ol>
+
+<h2>제3조 (회원 가입)</h2>
+<ol>
+  <li>이용자는 서비스가 정한 가입 양식에 따라 정보를 기입한 후 이 약관에 동의함으로써 회원 가입을 신청합니다.</li>
+  <li>서비스는 아래 각 호에 해당하는 경우 가입을 거절할 수 있습니다:
+    <ul>
+      <li>타인의 명의를 사용한 경우</li>
+      <li>허위 정보를 기재한 경우</li>
+      <li>기타 서비스가 정한 이용 요건을 충족하지 않은 경우</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>제4조 (콘텐츠 업로드 및 저작권)</h2>
+<div class="callout">
+  <p><strong>중요:</strong> 사용자가 업로드하는 모든 콘텐츠는 개인 학습 목적으로만 사용되어야 합니다. 업로드한 콘텐츠에 대한 저작권 관련 법적 책임은 전적으로 사용자에게 있습니다.</p>
+</div>
+<ol>
+  <li>사용자는 본인이 합법적으로 보유하거나 학습 목적으로 적법하게 취득한 자료만 업로드할 수 있습니다.</li>
+  <li>사용자는 업로드한 자료를 개인 학습 목적으로만 사용해야 합니다.</li>
+  <li>서비스는 사용자가 업로드한 콘텐츠의 저작권을 주장하지 않습니다.</li>
+  <li>사용자가 업로드한 콘텐츠로 인해 발생하는 저작권 침해 등 법적 분쟁에 대한 책임은 해당 콘텐츠를 업로드한 사용자에게 있습니다.</li>
+  <li>서비스는 저작권자의 적법한 요청이 있을 경우 해당 콘텐츠를 지체 없이 삭제할 수 있습니다.</li>
+</ol>
+<div class="callout-info">
+  <p>Drillo는 콘텐츠 공유 기능을 제공하지 않습니다. 모든 업로드된 콘텐츠는 해당 사용자의 개인 계정 내에서만 접근 가능합니다.</p>
+</div>
+
+<h2>제5조 (금지 행위)</h2>
+<p>사용자는 다음 각 호의 행위를 해서는 안 됩니다:</p>
+<ol>
+  <li>타인의 저작물을 권리자의 동의 없이 업로드하는 행위</li>
+  <li>업로드한 자료를 제3자에게 공유, 배포, 판매하는 행위</li>
+  <li>서비스를 이용하여 저작물을 대량으로 복제하는 행위</li>
+  <li>서비스의 기술적 보호 조치를 우회하거나 변조하는 행위</li>
+  <li>다른 사용자의 개인정보를 수집하거나 저장하는 행위</li>
+  <li>서비스의 정상적 운영을 방해하는 행위</li>
+</ol>
+
+<h2>제6조 (유료 서비스 및 구독)</h2>
+<ol>
+  <li>서비스는 일부 기능에 대해 유료 구독(프리미엄)을 제공할 수 있습니다.</li>
+  <li>유료 서비스의 결제는 Apple App Store 또는 Google Play Store의 인앱 결제를 통해 이루어집니다.</li>
+  <li>구독은 해지하지 않는 한 각 구독 기간 종료 시 자동으로 갱신됩니다.</li>
+  <li>구독 해지는 각 앱스토어의 구독 관리에서 현재 구독 기간 종료 최소 24시간 전에 가능합니다.</li>
+  <li>환불은 각 앱스토어의 환불 정책에 따릅니다.</li>
+  <li>무료 체험 기간이 제공되는 경우, 체험 기간 종료 전에 구독을 해지하지 않으면 자동으로 유료 구독이 시작됩니다.</li>
+</ol>
+
+<h2>제7조 (서비스 중단 및 변경)</h2>
+<ol>
+  <li>서비스는 시스템 점검, 장비 교체, 통신 장애 등 불가피한 사유가 있는 경우 서비스 제공을 일시적으로 중단할 수 있습니다.</li>
+  <li>서비스는 운영상 필요한 경우 서비스의 전부 또는 일부를 변경할 수 있습니다.</li>
+  <li>서비스 중단으로 인해 발생하는 손해에 대해 서비스 제공자는 고의 또는 중과실이 없는 한 배상 책임을 지지 않습니다.</li>
+</ol>
+
+<h2>제8조 (회원 탈퇴)</h2>
+<ol>
+  <li>회원은 언제든지 서비스 내 설정에서 탈퇴를 요청할 수 있습니다.</li>
+  <li>탈퇴 시 회원의 모든 데이터(업로드 자료, 학습 기록 등)는 30일 이내에 삭제됩니다.</li>
+  <li>삭제된 데이터는 복구할 수 없습니다.</li>
+  <li>유료 구독 중인 경우 탈퇴 전 구독을 해지해야 합니다. 탈퇴 후 미사용 구독 기간에 대한 환불은 각 앱스토어의 정책에 따릅니다.</li>
+</ol>
+
+<h2>제9조 (저작권 침해 신고 / DMCA)</h2>
+<ol>
+  <li>저작권자는 아래 채널을 통해 침해 신고를 접수할 수 있습니다:
+    <ul>
+      <li><strong>이메일:</strong> copyright@drillo.app</li>
+    </ul>
+  </li>
+  <li>신고 시 다음 정보를 포함해야 합니다:
+    <ul>
+      <li>저작권자 또는 대리인의 신원 정보</li>
+      <li>침해 대상 저작물의 특정</li>
+      <li>침해 주장의 근거</li>
+      <li>선서 진술(DMCA 신고의 경우)</li>
+    </ul>
+  </li>
+  <li>서비스는 적법한 신고 접수 후 7영업일 이내에 해당 콘텐츠에 대한 조치를 완료합니다.</li>
+  <li>반복적으로 저작권을 침해하는 사용자의 계정은 해지될 수 있습니다.</li>
+</ol>
+
+<h2>제10조 (면책 및 책임 제한)</h2>
+<ol>
+  <li>서비스는 사용자가 업로드한 콘텐츠의 정확성, 적법성, 완전성을 보증하지 않습니다.</li>
+  <li>서비스를 통해 제공되는 학습 기능은 참고용이며, 시험 결과에 대한 보증을 하지 않습니다.</li>
+  <li>사용자 간 또는 사용자와 제3자 간 분쟁에 대해 서비스 제공자는 개입하지 않으며 책임을 지지 않습니다.</li>
+  <li>관련 법령이 허용하는 최대 범위 내에서, 서비스 제공자의 총 배상 책임은 사용자가 직전 12개월간 서비스에 지불한 금액을 초과하지 않습니다.</li>
+  <li>서비스 제공자는 간접적, 부수적, 특별, 결과적 또는 징벌적 손해에 대해 책임을 지지 않습니다.</li>
+</ol>
+
+<h2>제11조 (준거법 및 분쟁 해결)</h2>
+<ol>
+  <li>이 약관은 대한민국 법률에 따라 해석되고 적용됩니다.</li>
+  <li>서비스 이용과 관련하여 발생한 분쟁은 서비스 제공자의 주소지를 관할하는 법원을 전속 관할 법원으로 합니다.</li>
+</ol>
+
+<h2>제12조 (약관 변경)</h2>
+<p>이 약관이 변경되는 경우, 변경 내용을 앱 내 공지 또는 이메일을 통해 시행일 7일 전까지 안내합니다. 변경된 약관에 동의하지 않는 경우 서비스 이용을 중단하고 탈퇴할 수 있습니다.</p>
+
+<h2>부칙</h2>
+<p>이 약관은 [시행일]부터 시행합니다.</p>
+
+</div>
+
+<!-- ===== ENGLISH ===== -->
+<div id="section-en" class="section">
+
+<p class="effective"><strong>Effective Date:</strong> [Insert date] &nbsp;|&nbsp; <strong>Last Updated:</strong> [Insert date]</p>
+
+<h2>Article 1. Purpose</h2>
+<p>These Terms of Service ("Terms") govern your use of the Drillo mobile application ("the Service"). By using the Service, you agree to be bound by these Terms.</p>
+
+<h2>Article 2. Description of Service</h2>
+<ol>
+  <li>The Service is a <strong>personal study tool</strong> that helps users digitize their own study materials (exam papers, PDFs, images) and practice multiple-choice questions through spaced repetition.</li>
+  <li>The Service does not create or provide question content.</li>
+  <li>All study content is entered or uploaded by the user.</li>
+  <li>The Service does not include content sharing features and does not support content exchange between users.</li>
+</ol>
+
+<h2>Article 3. Account Registration</h2>
+<ol>
+  <li>Users may register by providing the required information and agreeing to these Terms.</li>
+  <li>The Service may reject registration if:
+    <ul>
+      <li>A false identity is used</li>
+      <li>False information is provided</li>
+      <li>Other registration requirements are not met</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Article 4. User-Uploaded Content &amp; Copyright</h2>
+<div class="callout">
+  <p><strong>Important:</strong> All content uploaded by users must be for personal study purposes only. Users bear full legal responsibility for the copyright status of any content they upload.</p>
+</div>
+<ol>
+  <li>Users may only upload materials they legally own or have lawfully obtained for study purposes.</li>
+  <li>Uploaded materials must be used solely for personal study.</li>
+  <li>The Service does not claim ownership of any content uploaded by users.</li>
+  <li>Users are solely responsible for any copyright infringement or legal disputes arising from content they upload.</li>
+  <li>The Service may promptly remove any content upon receipt of a legitimate request from the copyright holder.</li>
+</ol>
+<div class="callout-info">
+  <p>Drillo does not provide content sharing features. All uploaded content is accessible only within the individual user's personal account.</p>
+</div>
+
+<h2>Article 5. Prohibited Activities</h2>
+<p>Users must not engage in the following activities:</p>
+<ol>
+  <li>Uploading copyrighted materials without the rights holder's consent</li>
+  <li>Sharing, distributing, or selling uploaded materials to third parties</li>
+  <li>Using the Service to mass-reproduce copyrighted works</li>
+  <li>Circumventing or tampering with the Service's technical protection measures</li>
+  <li>Collecting or storing other users' personal information</li>
+  <li>Interfering with the normal operation of the Service</li>
+</ol>
+
+<h2>Article 6. Paid Services &amp; Subscriptions</h2>
+<ol>
+  <li>The Service may offer paid subscriptions (Premium) for certain features.</li>
+  <li>Payments are processed through Apple App Store or Google Play Store in-app purchases.</li>
+  <li>Subscriptions automatically renew at the end of each billing period unless cancelled.</li>
+  <li>Cancellation must be made at least 24 hours before the end of the current subscription period through the respective app store's subscription management.</li>
+  <li>Refunds are governed by the respective app store's refund policy.</li>
+  <li>If a free trial is offered, failure to cancel before the trial period ends will result in automatic conversion to a paid subscription.</li>
+</ol>
+
+<h2>Article 7. Service Interruption &amp; Modification</h2>
+<ol>
+  <li>The Service may be temporarily suspended for system maintenance, equipment replacement, network failures, or other unavoidable reasons.</li>
+  <li>The Service may modify all or part of its features as operationally necessary.</li>
+  <li>The Service provider shall not be liable for damages caused by service interruptions, except in cases of willful misconduct or gross negligence.</li>
+</ol>
+
+<h2>Article 8. Account Termination</h2>
+<ol>
+  <li>Users may request account deletion at any time through the app's Settings.</li>
+  <li>Upon deletion, all user data (uploaded materials, study records, etc.) will be permanently removed within 30 days.</li>
+  <li>Deleted data cannot be recovered.</li>
+  <li>Users with active subscriptions must cancel their subscription before account deletion. Refunds for unused subscription periods are governed by the respective app store's policy.</li>
+</ol>
+
+<h2>Article 9. Copyright Infringement Reports / DMCA</h2>
+<ol>
+  <li>Copyright holders may submit infringement reports through the following channel:
+    <ul>
+      <li><strong>Email:</strong> copyright@drillo.app</li>
+    </ul>
+  </li>
+  <li>Reports must include:
+    <ul>
+      <li>Identification of the copyright owner or authorized agent</li>
+      <li>Identification of the copyrighted work claimed to be infringed</li>
+      <li>Basis for the infringement claim</li>
+      <li>A statement under penalty of perjury (for DMCA notices)</li>
+    </ul>
+  </li>
+  <li>The Service will take action on legitimate reports within 7 business days.</li>
+  <li>Accounts of repeat copyright infringers may be terminated.</li>
+</ol>
+
+<h2>Article 10. Disclaimer &amp; Limitation of Liability</h2>
+<ol>
+  <li>The Service does not warrant the accuracy, legality, or completeness of user-uploaded content.</li>
+  <li>Study features provided through the Service are for reference only. The Service does not guarantee any exam results.</li>
+  <li>The Service provider is not involved in and bears no responsibility for disputes between users or between users and third parties.</li>
+  <li>To the maximum extent permitted by applicable law, the Service provider's total liability shall not exceed the amount paid by the user to the Service in the 12 months preceding the claim.</li>
+  <li>The Service provider shall not be liable for any indirect, incidental, special, consequential, or punitive damages.</li>
+</ol>
+
+<h2>Article 11. Governing Law &amp; Dispute Resolution</h2>
+<ol>
+  <li>These Terms shall be governed by and construed in accordance with the laws of the Republic of Korea.</li>
+  <li>Any disputes arising in connection with the use of the Service shall be subject to the exclusive jurisdiction of the court having jurisdiction over the Service provider's registered address.</li>
+</ol>
+
+<h2>Article 12. Changes to Terms</h2>
+<p>If these Terms are amended, we will notify users at least 7 days before the effective date via in-app notice or email. If you do not agree to the revised Terms, you may discontinue use and delete your account.</p>
+
+<h2>Supplementary Provisions</h2>
+<p>These Terms are effective as of [effective date].</p>
+
+</div>
+
+<div class="footer">
+  &copy; 2026 Drillo. All rights reserved.
+</div>
+
+</div>
+
+<script>
+function switchLang(lang) {
+  document.getElementById('section-ko').classList.toggle('active', lang === 'ko');
+  document.getElementById('section-en').classList.toggle('active', lang === 'en');
+  document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
+}
+</script>
+</body>
+</html>
